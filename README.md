@@ -1,4 +1,4 @@
-# 🌟 Dumi Template
+# 🌟 Dumi Template1
 
 A doc template can assist you to develop libraries & write docs.
 
