@@ -1,6 +1,7 @@
 import { defineConfig } from 'dumi';
 
 const repo = 'lucky_code';
+const repo_new = 'src';
 
 export default defineConfig({
   title: repo,
@@ -12,8 +13,8 @@ export default defineConfig({
   mode: 'site',
   hash: true,
   // Because of using GitHub Pages
-  base: `/${repo}/`,
-  publicPath: `/${repo}/`,
+  base: `/${repo_new}/`,
+  publicPath: `/${repo_new}/`,
   navs: [
     null,
     {
