@@ -17,7 +17,7 @@ export default defineConfig({
   navs: [
     null,
     {
-      title: 'GitHub',
+      title: 'GitHub11',
       path: 'https://github.com/umijs/dumi-template',
     },
   ],
