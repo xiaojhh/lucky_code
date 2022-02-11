@@ -1,25 +1,23 @@
 import { defineConfig } from 'dumi';
 
 const repo = 'lucky_code';
-const repo_new = 'src';
 
 export default defineConfig({
-  title: repo,
-  favicon:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  logo:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+  title: '漂老师，每天学一丢丢',
+  favicon: '/images/log.jpeg',
+  logo: `/${repo}/images/log.jpeg`,
   outputPath: 'docs-dist',
   mode: 'site',
   hash: true,
   // Because of using GitHub Pages
-  base: `/${repo_new}/`,
-  publicPath: `/${repo_new}/`,
+  base: `/${repo}/`,
+  publicPath: `/${repo}/`,
+  locales: [['zh-CN', '中文']],
   navs: [
     null,
     {
-      title: 'GitHub11',
-      path: 'https://github.com/umijs/dumi-template',
+      title: 'GitHub',
+      path: 'https://github.com/xiaojhh',
     },
   ],
   // more config: https://d.umijs.org/config
