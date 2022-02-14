@@ -1,12 +1,4 @@
 
-
-```
-博客地址： www.czhuangjia.top
-组件库： @cz160/components
-方法库： @cz160/utils
-hooks库 @cz160/hooks
-```
-
 ## 起步
 
 - 安装多包依赖和相互依赖 link
