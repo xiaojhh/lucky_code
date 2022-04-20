@@ -1,4 +1,3 @@
-
 ## 起步
 
 - 安装多包依赖和相互依赖 link
@@ -60,7 +59,7 @@ lerna add 包名(给所有包安装)
 ```
 
 2. 进行开发
-3. 进行 rebase master 分支后，提交 Pr - cz160
+3. 进行 rebase master 分支后，提交 Pr
 4. CodeReview
 5. 合并分支到 master
 
